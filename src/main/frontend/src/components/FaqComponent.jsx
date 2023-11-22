@@ -16,18 +16,7 @@ function FaqComponent() {
                         </li>
                     </ul>
                     <div className="faqContents"></div>
-                    <Masonry columns={3} spacing={2}>
-                        {heights.map((height, index) => (
-                            <Paper key={index}>
-                                <StyledAccordion sx={{ minHeight: height }}>
-                                    <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                                        <Typography>Accordion {index + 1}</Typography>
-                                    </AccordionSummary>
-                                    <AccordionDetails>Contents</AccordionDetails>
-                                </StyledAccordion>
-                            </Paper>
-                        ))}
-                    </Masonry>
+                    
                 </div>
             </Container>
         </div>

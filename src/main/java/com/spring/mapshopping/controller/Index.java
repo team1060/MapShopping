@@ -1,18 +1,18 @@
 package com.spring.mapshopping.controller;
 
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import java.util.Arrays;
+import java.util.List;
 
-import ch.qos.logback.core.model.Model;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class Index {
 
-	@RequestMapping(value = "/test/hello")
-	@ResponseBody
-	public String helloRuckus(Model model) {
-		return "Hello React";
-	}
+    @GetMapping("/hello")
+    public @ResponseBody String Hello(){
+        return "backend";
+    }
 	
 }

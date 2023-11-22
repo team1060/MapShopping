@@ -1,11 +1,20 @@
-import "./assets/css/style.scss";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import FaqComponent from './components/FaqComponent';
+import logo from './logo.svg';
+import './App.css';
+import React, { useState, useEffect } from "react";
 
 function App() {
+  const [msg, setMsg] = useState([]);
+  useEffect(() => {
+    fetch("/hello")
+      .then(response => response.text())
+      .then((msg) => { setMsg(msg); })
+  }, []);
   return (
     <div className="App">
-      <FaqComponent></FaqComponent>
+      <header className="App-header">
+        <h1>안녕하세요123123123 </h1>
+        <p>{msg}</p>
+      </header>
     </div>
   );
 }
