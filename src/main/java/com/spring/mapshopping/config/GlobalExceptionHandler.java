@@ -1,4 +1,4 @@
-package com.spring.project.config;
+package com.spring.mapshopping.config;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.ui.Model;

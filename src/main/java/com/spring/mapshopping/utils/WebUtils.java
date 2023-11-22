@@ -1,4 +1,4 @@
-package com.spring.project.utils;
+package com.spring.mapshopping.utils;
 
 import java.io.IOException;
 import java.io.PrintWriter;

@@ -1,4 +1,4 @@
-package com.spring.project.controller.product;
+package com.spring.mapshopping.controller.product;
 
 import java.util.ArrayList;
 import java.util.List;

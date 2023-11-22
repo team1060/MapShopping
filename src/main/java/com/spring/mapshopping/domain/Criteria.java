@@ -1,4 +1,4 @@
-package com.spring.project.domain;
+package com.spring.mapshopping.domain;
 
 import java.util.ArrayList;
 import java.util.List;

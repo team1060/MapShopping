@@ -1,4 +1,4 @@
-package com.spring.project.mapper;
+package com.spring.mapshopping.mapper;
 
 import java.util.Map;
 
